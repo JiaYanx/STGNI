@@ -1,0 +1,639 @@
+<?xml version="1.0"?>
+<network xmlns="http://sndlib.zib.de/network" version="1.0">
+ <meta>
+  <granularity>15min</granularity>
+  <time>20050628-1630</time>
+  <unit>MBITPERSEC</unit>
+  <origin>Steve Uhlig, http://totem.info.ucl.ac.be/dataset.html</origin>
+ </meta>
+ <networkStructure>
+  <nodes coordinatesType="geographical">
+   <node id="at1.at">
+    <coordinates>
+     <x>16.3729</x>
+     <y>48.2091</y>
+    </coordinates>
+   </node>
+   <node id="be1.be">
+    <coordinates>
+     <x>4.3518</x>
+     <y>50.8469</y>
+    </coordinates>
+   </node>
+   <node id="ch1.ch">
+    <coordinates>
+     <x>6.1399</x>
+     <y>46.2038</y>
+    </coordinates>
+   </node>
+   <node id="cz1.cz">
+    <coordinates>
+     <x>14.4423</x>
+     <y>50.0785</y>
+    </coordinates>
+   </node>
+   <node id="de1.de">
+    <coordinates>
+     <x>8.6842</x>
+     <y>50.1122</y>
+    </coordinates>
+   </node>
+   <node id="es1.es">
+    <coordinates>
+     <x>-3.7033</x>
+     <y>40.4167</y>
+    </coordinates>
+   </node>
+   <node id="fr1.fr">
+    <coordinates>
+     <x>2.351</x>
+     <y>48.8566</y>
+    </coordinates>
+   </node>
+   <node id="gr1.gr">
+    <coordinates>
+     <x>23.5808</x>
+     <y>37.9778</y>
+    </coordinates>
+   </node>
+   <node id="hr1.hr">
+    <coordinates>
+     <x>15.9644</x>
+     <y>45.8071</y>
+    </coordinates>
+   </node>
+   <node id="hu1.hu">
+    <coordinates>
+     <x>19.0936</x>
+     <y>47.4976</y>
+    </coordinates>
+   </node>
+   <node id="ie1.ie">
+    <coordinates>
+     <x>-6.2573</x>
+     <y>53.3416</y>
+    </coordinates>
+   </node>
+   <node id="il1.il">
+    <coordinates>
+     <x>34.8097</x>
+     <y>32.0714</y>
+    </coordinates>
+   </node>
+   <node id="it1.it">
+    <coordinates>
+     <x>9.19</x>
+     <y>45.4642</y>
+    </coordinates>
+   </node>
+   <node id="lu1.lu">
+    <coordinates>
+     <x>6.1296</x>
+     <y>49.6112</y>
+    </coordinates>
+   </node>
+   <node id="nl1.nl">
+    <coordinates>
+     <x>4.9407</x>
+     <y>52.3236</y>
+    </coordinates>
+   </node>
+   <node id="ny1.ny">
+    <coordinates>
+     <x>-73.94384</x>
+     <y>40.6698</y>
+    </coordinates>
+   </node>
+   <node id="pl1.pl">
+    <coordinates>
+     <x>16.8874</x>
+     <y>52.3963</y>
+    </coordinates>
+   </node>
+   <node id="pt1.pt">
+    <coordinates>
+     <x>-9.1363</x>
+     <y>38.7073</y>
+    </coordinates>
+   </node>
+   <node id="se1.se">
+    <coordinates>
+     <x>17.8742</x>
+     <y>59.3617</y>
+    </coordinates>
+   </node>
+   <node id="si1.si">
+    <coordinates>
+     <x>14.5148</x>
+     <y>46.0574</y>
+    </coordinates>
+   </node>
+   <node id="sk1.sk">
+    <coordinates>
+     <x>17.1297</x>
+     <y>48.1531</y>
+    </coordinates>
+   </node>
+   <node id="uk1.uk">
+    <coordinates>
+     <x>-0.1264</x>
+     <y>51.5086</y>
+    </coordinates>
+   </node>
+  </nodes>
+  <links>
+  </links>
+ </networkStructure>
+ <demands>
+  <demand id="at1.at_be1.be">
+   <source>at1.at</source>
+   <target>be1.be</target>
+   <demandValue> 27.869678 </demandValue>
+  </demand>
+  <demand id="at1.at_ch1.ch">
+   <source>at1.at</source>
+   <target>ch1.ch</target>
+   <demandValue> 148.532589 </demandValue>
+  </demand>
+  <demand id="at1.at_de1.de">
+   <source>at1.at</source>
+   <target>de1.de</target>
+   <demandValue> 138.949656 </demandValue>
+  </demand>
+  <demand id="at1.at_es1.es">
+   <source>at1.at</source>
+   <target>es1.es</target>
+   <demandValue> 42.114633 </demandValue>
+  </demand>
+  <demand id="at1.at_fr1.fr">
+   <source>at1.at</source>
+   <target>fr1.fr</target>
+   <demandValue> 17.971288 </demandValue>
+  </demand>
+  <demand id="at1.at_gr1.gr">
+   <source>at1.at</source>
+   <target>gr1.gr</target>
+   <demandValue> 168.995372 </demandValue>
+  </demand>
+  <demand id="at1.at_hr1.hr">
+   <source>at1.at</source>
+   <target>hr1.hr</target>
+   <demandValue> 849.047555 </demandValue>
+  </demand>
+  <demand id="at1.at_hu1.hu">
+   <source>at1.at</source>
+   <target>hu1.hu</target>
+   <demandValue> 1354.011989 </demandValue>
+  </demand>
+  <demand id="at1.at_ie1.ie">
+   <source>at1.at</source>
+   <target>ie1.ie</target>
+   <demandValue> 0.031040 </demandValue>
+  </demand>
+  <demand id="at1.at_il1.il">
+   <source>at1.at</source>
+   <target>il1.il</target>
+   <demandValue> 1.052930 </demandValue>
+  </demand>
+  <demand id="at1.at_it1.it">
+   <source>at1.at</source>
+   <target>it1.it</target>
+   <demandValue> 22.323251 </demandValue>
+  </demand>
+  <demand id="at1.at_lu1.lu">
+   <source>at1.at</source>
+   <target>lu1.lu</target>
+   <demandValue> 0.096830 </demandValue>
+  </demand>
+  <demand id="at1.at_nl1.nl">
+   <source>at1.at</source>
+   <target>nl1.nl</target>
+   <demandValue> 4.155828 </demandValue>
+  </demand>
+  <demand id="at1.at_ny1.ny">
+   <source>at1.at</source>
+   <target>ny1.ny</target>
+   <demandValue> 6.211812 </demandValue>
+  </demand>
+  <demand id="at1.at_pt1.pt">
+   <source>at1.at</source>
+   <target>pt1.pt</target>
+   <demandValue> 0.448444 </demandValue>
+  </demand>
+  <demand id="at1.at_se1.se">
+   <source>at1.at</source>
+   <target>se1.se</target>
+   <demandValue> 998.654554 </demandValue>
+  </demand>
+  <demand id="at1.at_si1.si">
+   <source>at1.at</source>
+   <target>si1.si</target>
+   <demandValue> 1141.106969 </demandValue>
+  </demand>
+  <demand id="at1.at_uk1.uk">
+   <source>at1.at</source>
+   <target>uk1.uk</target>
+   <demandValue> 9.125435 </demandValue>
+  </demand>
+  <demand id="be1.be_at1.at">
+   <source>be1.be</source>
+   <target>at1.at</target>
+   <demandValue> 81.034318 </demandValue>
+  </demand>
+  <demand id="be1.be_ch1.ch">
+   <source>be1.be</source>
+   <target>ch1.ch</target>
+   <demandValue> 1.108824 </demandValue>
+  </demand>
+  <demand id="be1.be_cz1.cz">
+   <source>be1.be</source>
+   <target>cz1.cz</target>
+   <demandValue> 0.181290 </demandValue>
+  </demand>
+  <demand id="be1.be_de1.de">
+   <source>be1.be</source>
+   <target>de1.de</target>
+   <demandValue> 40.508556 </demandValue>
+  </demand>
+  <demand id="be1.be_es1.es">
+   <source>be1.be</source>
+   <target>es1.es</target>
+   <demandValue> 6.880233 </demandValue>
+  </demand>
+  <demand id="be1.be_fr1.fr">
+   <source>be1.be</source>
+   <target>fr1.fr</target>
+   <demandValue> 34.476403 </demandValue>
+  </demand>
+  <demand id="be1.be_gr1.gr">
+   <source>be1.be</source>
+   <target>gr1.gr</target>
+   <demandValue> 0.376862 </demandValue>
+  </demand>
+  <demand id="be1.be_hr1.hr">
+   <source>be1.be</source>
+   <target>hr1.hr</target>
+   <demandValue> 0.255852 </demandValue>
+  </demand>
+  <demand id="be1.be_hu1.hu">
+   <source>be1.be</source>
+   <target>hu1.hu</target>
+   <demandValue> 1.257106 </demandValue>
+  </demand>
+  <demand id="be1.be_ie1.ie">
+   <source>be1.be</source>
+   <target>ie1.ie</target>
+   <demandValue> 0.416561 </demandValue>
+  </demand>
+  <demand id="be1.be_il1.il">
+   <source>be1.be</source>
+   <target>il1.il</target>
+   <demandValue> 0.176566 </demandValue>
+  </demand>
+  <demand id="be1.be_it1.it">
+   <source>be1.be</source>
+   <target>it1.it</target>
+   <demandValue> 2.401300 </demandValue>
+  </demand>
+  <demand id="be1.be_lu1.lu">
+   <source>be1.be</source>
+   <target>lu1.lu</target>
+   <demandValue> 0.011246 </demandValue>
+  </demand>
+  <demand id="be1.be_nl1.nl">
+   <source>be1.be</source>
+   <target>nl1.nl</target>
+   <demandValue> 29.957883 </demandValue>
+  </demand>
+  <demand id="be1.be_ny1.ny">
+   <source>be1.be</source>
+   <target>ny1.ny</target>
+   <demandValue> 107.619168 </demandValue>
+  </demand>
+  <demand id="be1.be_pl1.pl">
+   <source>be1.be</source>
+   <target>pl1.pl</target>
+   <demandValue> 0.252872 </demandValue>
+  </demand>
+  <demand id="be1.be_pt1.pt">
+   <source>be1.be</source>
+   <target>pt1.pt</target>
+   <demandValue> 0.264343 </demandValue>
+  </demand>
+  <demand id="be1.be_se1.se">
+   <source>be1.be</source>
+   <target>se1.se</target>
+   <demandValue> 168.221068 </demandValue>
+  </demand>
+  <demand id="be1.be_si1.si">
+   <source>be1.be</source>
+   <target>si1.si</target>
+   <demandValue> 0.082885 </demandValue>
+  </demand>
+  <demand id="be1.be_uk1.uk">
+   <source>be1.be</source>
+   <target>uk1.uk</target>
+   <demandValue> 12.935047 </demandValue>
+  </demand>
+  <demand id="ch1.ch_at1.at">
+   <source>ch1.ch</source>
+   <target>at1.at</target>
+   <demandValue> 130.114993 </demandValue>
+  </demand>
+  <demand id="ch1.ch_be1.be">
+   <source>ch1.ch</source>
+   <target>be1.be</target>
+   <demandValue> 7.866473 </demandValue>
+  </demand>
+  <demand id="ch1.ch_cz1.cz">
+   <source>ch1.ch</source>
+   <target>cz1.cz</target>
+   <demandValue> 6.045873 </demandValue>
+  </demand>
+  <demand id="ch1.ch_de1.de">
+   <source>ch1.ch</source>
+   <target>de1.de</target>
+   <demandValue> 459.920095 </demandValue>
+  </demand>
+  <demand id="ch1.ch_es1.es">
+   <source>ch1.ch</source>
+   <target>es1.es</target>
+   <demandValue> 83.136018 </demandValue>
+  </demand>
+  <demand id="ch1.ch_fr1.fr">
+   <source>ch1.ch</source>
+   <target>fr1.fr</target>
+   <demandValue> 36.226320 </demandValue>
+  </demand>
+  <demand id="ch1.ch_gr1.gr">
+   <source>ch1.ch</source>
+   <target>gr1.gr</target>
+   <demandValue> 1.075479 </demandValue>
+  </demand>
+  <demand id="ch1.ch_hr1.hr">
+   <source>ch1.ch</source>
+   <target>hr1.hr</target>
+   <demandValue> 1.367038 </demandValue>
+  </demand>
+  <demand id="ch1.ch_hu1.hu">
+   <source>ch1.ch</source>
+   <target>hu1.hu</target>
+   <demandValue> 29.221591 </demandValue>
+  </demand>
+  <demand id="ch1.ch_ie1.ie">
+   <source>ch1.ch</source>
+   <target>ie1.ie</target>
+   <demandValue> 0.680455 </demandValue>
+  </demand>
+  <demand id="ch1.ch_il1.il">
+   <source>ch1.ch</source>
+   <target>il1.il</target>
+   <demandValue> 1.193959 </demandValue>
+  </demand>
+  <demand id="ch1.ch_it1.it">
+   <source>ch1.ch</source>
+   <target>it1.it</target>
+   <demandValue> 9.713221 </demandValue>
+  </demand>
+  <demand id="ch1.ch_lu1.lu">
+   <source>ch1.ch</source>
+   <target>lu1.lu</target>
+   <demandValue> 0.262994 </demandValue>
+  </demand>
+  <demand id="ch1.ch_nl1.nl">
+   <source>ch1.ch</source>
+   <target>nl1.nl</target>
+   <demandValue> 3.168969 </demandValue>
+  </demand>
+  <demand id="ch1.ch_ny1.ny">
+   <source>ch1.ch</source>
+   <target>ny1.ny</target>
+   <demandValue> 34.522512 </demandValue>
+  </demand>
+  <demand id="ch1.ch_pl1.pl">
+   <source>ch1.ch</source>
+   <target>pl1.pl</target>
+   <demandValue> 16.536604 </demandValue>
+  </demand>
+  <demand id="ch1.ch_pt1.pt">
+   <source>ch1.ch</source>
+   <target>pt1.pt</target>
+   <demandValue> 90.300444 </demandValue>
+  </demand>
+  <demand id="ch1.ch_se1.se">
+   <source>ch1.ch</source>
+   <target>se1.se</target>
+   <demandValue> 221.105563 </demandValue>
+  </demand>
+  <demand id="ch1.ch_si1.si">
+   <source>ch1.ch</source>
+   <target>si1.si</target>
+   <demandValue> 4.336106 </demandValue>
+  </demand>
+  <demand id="ch1.ch_sk1.sk">
+   <source>ch1.ch</source>
+   <target>sk1.sk</target>
+   <demandValue> 1.304453 </demandValue>
+  </demand>
+  <demand id="ch1.ch_uk1.uk">
+   <source>ch1.ch</source>
+   <target>uk1.uk</target>
+   <demandValue> 62.348274 </demandValue>
+  </demand>
+  <demand id="cz1.cz_be1.be">
+   <source>cz1.cz</source>
+   <target>be1.be</target>
+   <demandValue> 0.639799 </demandValue>
+  </demand>
+  <demand id="cz1.cz_ch1.ch">
+   <source>cz1.cz</source>
+   <target>ch1.ch</target>
+   <demandValue> 1.825323 </demandValue>
+  </demand>
+  <demand id="cz1.cz_de1.de">
+   <source>cz1.cz</source>
+   <target>de1.de</target>
+   <demandValue> 198.529946 </demandValue>
+  </demand>
+  <demand id="cz1.cz_es1.es">
+   <source>cz1.cz</source>
+   <target>es1.es</target>
+   <demandValue> 29.790201 </demandValue>
+  </demand>
+  <demand id="cz1.cz_fr1.fr">
+   <source>cz1.cz</source>
+   <target>fr1.fr</target>
+   <demandValue> 15.696396 </demandValue>
+  </demand>
+  <demand id="cz1.cz_gr1.gr">
+   <source>cz1.cz</source>
+   <target>gr1.gr</target>
+   <demandValue> 1.372999 </demandValue>
+  </demand>
+  <demand id="cz1.cz_hr1.hr">
+   <source>cz1.cz</source>
+   <target>hr1.hr</target>
+   <demandValue> 2.055703 </demandValue>
+  </demand>
+  <demand id="cz1.cz_hu1.hu">
+   <source>cz1.cz</source>
+   <target>hu1.hu</target>
+   <demandValue> 13.820802 </demandValue>
+  </demand>
+  <demand id="cz1.cz_ie1.ie">
+   <source>cz1.cz</source>
+   <target>ie1.ie</target>
+   <demandValue> 0.042230 </demandValue>
+  </demand>
+  <demand id="cz1.cz_il1.il">
+   <source>cz1.cz</source>
+   <target>il1.il</target>
+   <demandValue> 0.259339 </demandValue>
+  </demand>
+  <demand id="cz1.cz_it1.it">
+   <source>cz1.cz</source>
+   <target>it1.it</target>
+   <demandValue> 0.779140 </demandValue>
+  </demand>
+  <demand id="cz1.cz_lu1.lu">
+   <source>cz1.cz</source>
+   <target>lu1.lu</target>
+   <demandValue> 0.438042 </demandValue>
+  </demand>
+  <demand id="cz1.cz_nl1.nl">
+   <source>cz1.cz</source>
+   <target>nl1.nl</target>
+   <demandValue> 97.299606 </demandValue>
+  </demand>
+  <demand id="cz1.cz_ny1.ny">
+   <source>cz1.cz</source>
+   <target>ny1.ny</target>
+   <demandValue> 6.261464 </demandValue>
+  </demand>
+  <demand id="cz1.cz_pt1.pt">
+   <source>cz1.cz</source>
+   <target>pt1.pt</target>
+   <demandValue> 3.295715 </demandValue>
+  </demand>
+  <demand id="cz1.cz_se1.se">
+   <source>cz1.cz</source>
+   <target>se1.se</target>
+   <demandValue> 61.677660 </demandValue>
+  </demand>
+  <demand id="cz1.cz_si1.si">
+   <source>cz1.cz</source>
+   <target>si1.si</target>
+   <demandValue> 14.352638 </demandValue>
+  </demand>
+  <demand id="cz1.cz_uk1.uk">
+   <source>cz1.cz</source>
+   <target>uk1.uk</target>
+   <demandValue> 12.467934 </demandValue>
+  </demand>
+  <demand id="de1.de_at1.at">
+   <source>de1.de</source>
+   <target>at1.at</target>
+   <demandValue> 97.156835 </demandValue>
+  </demand>
+  <demand id="de1.de_be1.be">
+   <source>de1.de</source>
+   <target>be1.be</target>
+   <demandValue> 44.986420 </demandValue>
+  </demand>
+  <demand id="de1.de_ch1.ch">
+   <source>de1.de</source>
+   <target>ch1.ch</target>
+   <demandValue> 38.786417 </demandValue>
+  </demand>
+  <demand id="de1.de_cz1.cz">
+   <source>de1.de</source>
+   <target>cz1.cz</target>
+   <demandValue> 16.279739 </demandValue>
+  </demand>
+  <demand id="de1.de_es1.es">
+   <source>de1.de</source>
+   <target>es1.es</target>
+   <demandValue> 87.950427 </demandValue>
+  </demand>
+  <demand id="de1.de_fr1.fr">
+   <source>de1.de</source>
+   <target>fr1.fr</target>
+   <demandValue> 75.792214 </demandValue>
+  </demand>
+  <demand id="de1.de_gr1.gr">
+   <source>de1.de</source>
+   <target>gr1.gr</target>
+   <demandValue> 98.309351 </demandValue>
+  </demand>
+  <demand id="de1.de_hr1.hr">
+   <source>de1.de</source>
+   <target>hr1.hr</target>
+   <demandValue> 2.698201 </demandValue>
+  </demand>
+  <demand id="de1.de_hu1.hu">
+   <source>de1.de</source>
+   <target>hu1.hu</target>
+   <demandValue> 51.160445 </demandValue>
+  </demand>
+  <demand id="de1.de_ie1.ie">
+   <source>de1.de</source>
+   <target>ie1.ie</target>
+   <demandValue> 3.937145 </demandValue>
+  </demand>
+  <demand id="de1.de_il1.il">
+   <source>de1.de</source>
+   <target>il1.il</target>
+   <demandValue> 135.617054 </demandValue>
+  </demand>
+  <demand id="de1.de_it1.it">
+   <source>de1.de</source>
+   <target>it1.it</target>
+   <demandValue> 11.033137 </demandValue>
+  </demand>
+  <demand id="de1.de_lu1.lu">
+   <source>de1.de</source>
+   <target>lu1.lu</target>
+   <demandValue> 0.445801 </demandValue>
+  </demand>
+  <demand id="de1.de_nl1.nl">
+   <source>de1.de</source>
+   <target>nl1.nl</target>
+   <demandValue> 82.856661 </demandValue>
+  </demand>
+  <demand id="de1.de_ny1.ny">
+   <source>de1.de</source>
+   <target>ny1.ny</target>
+   <demandValue> 941.775446 </demandValue>
+  </demand>
+  <demand id="de1.de_pl1.pl">
+   <source>de1.de</source>
+   <target>pl1.pl</target>
+   <demandValue> 78.580498 </demandValue>
+  </demand>
+  <demand id="de1.de_pt1.pt">
+   <source>de1.de</source>
+   <target>pt1.pt</target>
+   <demandValue> 82.182336 </demandValue>
+  </demand>
+  <demand id="de1.de_se1.se">
+   <source>de1.de</source>
+   <target>se1.se</target>
+   <demandValue> 1127.620012 </demandValue>
+  </demand>
+  <demand id="de1.de_si1.si">
+   <source>de1.de</source>
+   <target>si1.si</target>
+   <demandValue> 924.521388 </demandValue>
+  </demand>
+  <demand id="de1.de_sk1.sk">
+   <source>de1.de</source>
+   <target>sk1.sk</target>
+   <demandValue> 2.381450 </demandValue>
+  </demand>
+  <demand id="de1.de_uk1.uk">
+   <source>de1.de</source>
+   <target>uk1.uk</target>
+   <demandValue> 233.755743 </demandValue>
+  </demand>
+ </demands>
+</network>
