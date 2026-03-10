@@ -8,7 +8,6 @@ The '02 processing dataset' directory contains source-target-demandValue data ex
 
 The '03 dataset' directory includes data that has been standardized for each node.
 
-The '04 result' directory includes result that has been standardized for each node.
 
 
 ### Citation
