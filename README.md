@@ -13,9 +13,7 @@ The '03 dataset' directory includes data that has been standardized for each nod
 ### Citation
 
 If you use this dataset in your research, please cite our paper：
-- **Authors**: Yanxin Jia, Long Xu, Hengsheng Zhang, Kailai Peng, Hui Zuo, Lihu Pan, Junhua Kuang
-- **Title**: STGNI: Spatio-Temporal Graph Node Importance for Software-Defined Networking Traffic Prediction
-- **Venue**: The 2025 IEEE International Conference on Cyber Resilience and Endogenous Safety & Security, 2025.  
+```Jia Y, Xu L, Zhang H, et al. STGNI: Spatio-Temporal Graph Node Importance for Software-Defined Networking Traffic Prediction[C]//2025 International Conference on Cyber Resilience and Endogenous Safety & Security (CRESS). IEEE, 2025: 132-138.```  
 
 
 
