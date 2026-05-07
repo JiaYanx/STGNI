@@ -13,7 +13,18 @@ The '03 dataset' directory includes data that has been standardized for each nod
 ### Citation
 
 If you use this dataset in your research, please cite our paper：
-```Jia Y, Xu L, Zhang H, et al. STGNI: Spatio-Temporal Graph Node Importance for Software-Defined Networking Traffic Prediction[C]//2025 International Conference on Cyber Resilience and Endogenous Safety & Security (CRESS). IEEE, 2025: 132-138.```  
+
+```
+@inproceedings{jia2025stgni,
+  title={STGNI: Spatio-Temporal Graph Node Importance for Software-Defined Networking Traffic Prediction},
+  author={Jia, Yanxin and Xu, Long and Zhang, Hengsheng and Peng, Kailai and Zuo, Hui and Pan, Lihu and Kuang, Junhua},
+  booktitle={2025 International Conference on Cyber Resilience and Endogenous Safety \& Security (CRESS)},
+  pages={132--138},
+  year={2025},
+  organization={IEEE}
+}
+
+```  
 
 
 
